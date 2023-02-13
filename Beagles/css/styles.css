@@ -1,0 +1,230 @@
+/* CSS Document
+
+1. temp.html
+2.add table
+3.add page heading
+4.add placeholders
+5.place & center image
+6.navigation bar
+7.add text & links
+8. add copyright
+8b. Fair use
+9.last updated statement
+
+*/
+
+
+
+/*
+FONTS FOR WEBSITE
+
+font-family: 'Bree Serif', serif;
+font-family: 'DM Serif Display', serif;
+font-family: 'Satisfy', cursive;
+
+*/
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Serif+Display&family=Satisfy&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background-color: #e4f2ea;
+}
+
+header h1 {
+	font-size: 7em;
+	color: #e4f2ea;
+	margin-left: 8%;
+	font-family: 'Satisfy', cursive;
+}
+
+header h2 {
+	font-size: 3em;
+	color: #e4f2ea;
+	margin-left: 10%;
+	text-align: center;
+	font-family: 'Satisfy', cursive;
+}
+
+footer * {
+	color: white;
+	text-align: center;
+	padding: 0.5%;
+}
+
+.hnav {
+	width: 100%;
+	background-color: #11181e;
+	min-height: 50px;
+	text-align: right;
+}
+
+.hnav ul {
+	display: block;
+	padding-top: .5em;
+	text-align: center;
+}
+
+.hnav ul li {
+	display: inline-block;
+	list-style-type: none;
+	width: 10%;
+	padding: 0 2%;
+	text-align: center;
+}
+
+.hnav a {
+	text-decoration: none;
+	color: #e4f2ea;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+.hnav a:hover {
+	background-color: #A68160;
+	color: #11181e;
+	border-radius: 3px 5px 5px;
+}
+
+nav a:hover {
+	
+}
+
+header {
+	min-height: 400px;
+	background-color: #734f2f;
+	background-image: url("../images/appearance_beagle.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+}
+
+main {
+	min-height: 500px;
+}
+
+#container {
+	margin: 0 auto;
+	width: 80%;
+	min-height: 700px;
+	font-size: 1.8em;
+}
+
+#container .pmain {
+	border: 5px solid black;
+	font-family: 'DM Serif Display', serif;
+	font-size: 30px;
+	margin-top: 2%;
+	padding-bottom: 2%;
+	padding: 0 2%;
+}
+.indeximg{
+float: left;
+	margin-right: 2%;
+	margin-top: 2%;
+	border: 5px solid black;
+}
+
+.appimg {
+	border: 5px solid black;
+	margin: 2% -5%;
+}
+
+.tempimg {
+	border: 5px solid black;
+	margin-top: 2%;
+	margin-right: 2%;
+	min-height: 600px;
+	width: 50%;
+	float: left;
+}
+
+.popimg {
+	border: 5px solid black;
+	margin-top: 2%;
+	margin-right: 2%;
+	min-height: 600px;
+	width: 50%;
+	float: left;
+}
+
+.histimg {
+	border: 5px solid black;
+	margin-top: 2%;
+	margin-right: 2%;
+	min-height: 600px;
+	width: 50%;
+	float: left;
+}
+
+table {
+	margin-top: 20%;
+}
+
+form {
+	text-align: center;
+}
+
+form label {
+	font-size: 1.75em;
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+blockquote {
+	font-family: 'Bree Serif', serif;
+	text-align: center;
+	font-size: 70px;
+	border: 5px solid black;
+	margin-top: 2%;
+	background-color: black;
+	color: white;
+}
+
+table {
+	
+}
+
+footer {
+	min-height: 300px;
+	background-color: #11181e;
+}
+
+.fnav {
+	width: 100%;
+	background-color: #734f2f;
+	padding: 2% 0;
+	margin-top: 2%;
+}
+
+.fnav ul li {
+	display: inline-block;
+	margin: 0 5.5%;
+	list-style-type: none;
+}
+
+.fnav ul {
+	
+}
+
+.fnav a {
+	text-decoration: none;
+	color: white;
+}
+
+.fnav a:hover {
+	background-color: #A68160;
+	color: #11181e;
+	border-radius: 3px 5px 5px;
+}

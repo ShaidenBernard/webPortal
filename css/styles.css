@@ -1,0 +1,126 @@
+/* CSS Document */
+/*
+
+A: #222747
+B: #C7CEFF
+C: #7A8CFF
+D: #636780
+E: #6270CC
+
+*/
+/* Browser Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+	background-color: #6270CC;
+}
+
+header img {
+  background-repeat: no-repeat;
+	display: block;
+}
+
+header p {
+	text-align: center;
+	padding: 10% 10% 0;
+	width: 400px;
+	float: right;
+	font-weight: 900;
+	font-size: 50px;
+}
+
+header {
+	background-color: black;
+	color: white;
+	border-bottom: 10px solid #C7CEFF;
+}
+
+#website {
+	display: grid;
+	grid-template-areas: 
+		"it1 it2 it3"
+		"it4 it5 it6";
+	grid-template-columns: 35% 35%;
+	margin: 5%;
+}
+
+.christmas {
+	grid-area: it1;
+	border-radius: 10px;
+}
+
+.beagles {
+	grid-area: it2;
+	border-radius: 10px;
+}
+
+.forward {
+	grid-area: it3;
+	border-radius: 10px;
+}
+
+.nintendo {
+	grid-area: it4;
+	border-radius: 10px;
+}
+
+.resume {
+	grid-area: it5;
+	border-radius: 10px;
+}
+
+.RWD {
+	grid-area: it6;
+	border-radius: 10px;
+}
+
+p {
+	font-size: 1.9em;
+	text-align: center;
+}
+
+.p2 {
+	background-color: #222747;
+	color: white;
+	border: 5px dashed #C7CEFF;
+	padding: 2%;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+.introduction {
+	font-weight: bold;
+	margin: 5%;
+}
+
+a:hover {
+	box-shadow: 3px 3px 3px;
+}
+
+a {
+	border: 5px solid #222747;
+	font-weight: bold;
+	margin: 2%;
+	list-style-type: none;
+	text-decoration: none;
+	color: #12339B;
+	background-color: white;
+	font-size: 2vw;
+}
+
+.webProjects {
+	text-align: center;
+}
+
+footer {
+	background-color: #222747;
+	color: white;
+	text-align: center;
+	padding: 5%;
+	border-top: 10px solid black;
+}

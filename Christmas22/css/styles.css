@@ -1,0 +1,379 @@
+/* Browser Reset */
+
+body, header, nav, main, footer, h1, div, img, ul, li, a, section, img, h2 {
+	
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+header h1 {
+	text-align: center;
+}
+
+header {
+	border: 10px solid black;
+	padding: 25px 0;
+	min-width: 500px;
+	background-color: white;
+	color:black;
+	font-family: 'Nerko One', cursive;
+}
+
+main p {
+	color: white;
+	font-family: 'Nerko One' cursive;
+	font-size: 20px;
+	font-weight: 300;
+	
+}
+
+.imgtwo {
+	width: auto;
+	
+}
+
+
+.pimg p{
+margin: 0 auto 5% ;
+	background-color: black;
+	padding: 2% 0 2% 0;
+	text-align: center;
+
+}
+
+body {
+	background-color: black;
+	background-image: url(https://live.staticflickr.com/2404/2127387801_8d487ce4be_b.jpg)
+	
+}
+
+nav {
+	padding: 1%;
+	margin-bottom: 1%;
+}
+
+nav ul {
+	padding: 0 10px;
+	margin: 0;
+	text-align: center;
+	list-style-type: none;
+}
+
+nav li {
+	font-size: 1.5em;
+	font-family: 'Nerko One', cursive;
+	border: 5px solid black;
+	display: inline-block;
+	background-color: white;
+}
+
+nav li:first-child{
+	
+}
+
+nav li a {
+	color: black;
+	text-align: center;
+	padding: 0.5em 1em;
+	text-decoration: none;
+
+}
+
+	nav li a:hover {
+		color: white;
+		background-color: black;
+		
+	}
+
+main img {
+	width: 40%;
+	height: auto;
+	max-height: 450px;
+	min-height: 300px;
+}
+
+footer {
+
+	background-color: black;
+	font-size: 10px;
+	
+}
+
+footer hr {
+	margin: 25px;
+}
+
+footer p {
+	text-align: left;
+	color: white;
+}
+
+main .image {
+	width: auto;
+	
+}
+
+.ptwo a {
+	text-decoration: none;
+	color: white;
+}
+
+section img {
+	max-width: 100%;
+	margin: 0 auto;
+	max-height: 480px;
+	width: auto;
+	height: 480px;
+	border-radius: 10px;
+}
+
+.cssGrid {
+    display: block;
+    width: 100%;
+}
+
+#item1 {
+    background-color: #A1C181;
+	background: rgba(161, 193, 129, 0.8);
+    min-height: 300px;
+	max-height: 500px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 10px 0;
+}
+#item2 {
+    background-color: #619B8A;
+	background: rgba(161, 193, 129, 0.8);
+    min-height: 300px;
+	max-height: 500px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 10px 0;
+}
+#item3 {
+    background-color: #A1C181;
+	background: rgba(161, 193, 129, 0.8);
+    min-height: 300px;
+	max-height: 500px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 10px 0;
+}
+#item4 {
+    background-color: #619B8A;
+	background: rgba(161, 193, 129, 0.8);
+    min-height: 300px;
+	max-height: 500px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 10px 0;
+}
+#item5 {
+    background-color: #A1C181;
+	background: rgba(161, 193, 129, 0.8);
+    min-height: 300px;
+	max-height: 500px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 10px 0;
+}
+#item6 {
+    background-color: #619B8A;
+	background: rgba(161, 193, 129, 0.8);
+    min-height: 300px;
+	max-height: 500px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 10px 0;
+}
+#item7 {
+    background-color: #A1C181;
+	background: rgba(161, 193, 129, 0.8);
+    min-height: 300px;
+	max-height: 500px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 10px 0;
+}
+#item8 {
+    background-color: #619B8A;
+	background: rgba(161, 193, 129, 0.8);
+    min-height: 300px;
+	max-height: 500px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 10px 0;
+}
+#item9 {
+    background-color: #A1C181;
+	background: rgba(161, 193, 129, 0.8);
+    min-height: 300px;
+	max-height: 500px;
+    padding: 5% 2% 3% 2%;
+	border-radius: 10px 0;
+}
+
+@supports (grid-area: auto) {
+	
+    /* Media Query Tablet */
+@media screen and (min-width: 600px) {
+
+section img {
+			max-width: 90%;
+			max-height: 40%;
+			border-radius: 10px;
+			margin: 0 0 40px 0;
+		}
+	
+	/* Apply CSS Grid */
+		.cssGrid {
+			display: grid;
+			width: 100%;
+			grid-template-columns: 45% 45%;
+			grid-template-areas: 
+				"it1 it1"
+				"it2 it3"
+				"it4 it4"
+				"it5 it6"
+				"it7 it7"
+				"it8 it9";
+			grid-gap: 1% 1%;
+			margin: 10% 0;
+			justify-content: center;
+		}
+		/* Row 1 */
+		#item1 {
+			grid-area: it1;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+		}
+		#item2 {
+			grid-area: it2;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item3 {
+			grid-area: it3;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item4 {
+			grid-area: it4;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item5 {
+			grid-area: it5;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item6 {
+			grid-area: it6;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item7 {
+			grid-area: it7;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item8 {
+			grid-area: it8;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item9 {
+			grid-area: it9;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		}
+}
+ /* Closing Media Query Tablet */
+    /* Media Query Desktop */
+    @media screen and (min-width: 1000px) {
+		
+		section img {
+			max-width: 90%;
+			margin: 0 auto;
+			max-height: 30%;
+			border-radius: 10px;
+		}
+
+		header {
+			margin: 0 500px;
+		}
+		footer {
+			padding: 10px;
+		}
+		/* Apply CSS Grid */
+		.cssGrid {
+			display: grid;
+			width: 100%;
+			grid-template-columns: 29% 29% 29%;
+			grid-template-areas: 
+				"it1 it2 it3"
+				"it4 it5 it6"
+				"it7 it8 it9";
+			grid-gap: 1% 1%;
+			margin: 10% 0;
+			justify-content: center;
+		}
+		#item1 {
+			grid-area: it1;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+		}
+		#item2 {
+			grid-area: it2;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item3 {
+			grid-area: it3;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item4 {
+			grid-area: it4;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item5 {
+			grid-area: it5;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item6 {
+			grid-area: it6;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item7 {
+			grid-area: it7;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item8 {
+			grid-area: it8;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+		#item9 {
+			grid-area: it9;
+			background-color: #A1C181;
+			border: 2px #fe7f2d solid;
+			font-family: 'Nerko One', cursive;
+			}
+        
+    } /* Closing Media Query Desktop */
+
