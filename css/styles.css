@@ -44,7 +44,8 @@ header {
 	display: grid;
 	grid-template-areas: 
 		"it1 it2 it3"
-		"it4 it5 it6";
+		"it4 it5 it6"
+		"it7 it8 it9";
 	grid-template-columns: 35% 35%;
 	margin: 5%;
 }
@@ -87,6 +88,11 @@ header {
 
 .RWD {
 	grid-area: it6;
+	border-radius: 10px;
+}
+
+.Roblox {
+	grid-area: it7;
 	border-radius: 10px;
 }
 
